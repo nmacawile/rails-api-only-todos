@@ -1,5 +1,5 @@
 class ItemsController < ApplicationController
-  before_action :set_todo
+  before_action :set_todo, only: [:index, :create]
   before_action :set_item, only: [:show, :update, :destroy]  
 
   

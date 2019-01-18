@@ -32,8 +32,8 @@ RSpec.describe 'Items API', type: :request do
     end
   end
   
-  describe 'GET /todos/:todo_id/items/:id' do
-    before { get "/todos/#{todo_id}/items/#{id}" }
+  describe 'GET /items/:id' do
+    before { get "/items/#{id}" }
     
     context 'when todo item exists' do
       it 'returns the todo item' do
@@ -82,8 +82,8 @@ RSpec.describe 'Items API', type: :request do
     end
   end
   
-  describe 'PUT /todos/:todo_id/items/:id' do
-    before { put "/todos/#{todo_id}/items/#{id}", params: { item: { name: 'Renamed Item' } } }
+  describe 'PUT /items/:id' do
+    before { put "/items/#{id}", params: { item: { name: 'Renamed Item' } } }
       
     context 'when item exists' do
       it 'updates the item' do
@@ -110,7 +110,7 @@ RSpec.describe 'Items API', type: :request do
   end
   
   describe 'DELETE /items/:todo_id' do
-    before { delete "/todos/#{todo_id}/items/#{id}" }
+    before { delete "/items/#{id}" }
     
     context 'when the item exists' do
       it 'deletes the item' do
