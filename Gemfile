@@ -20,6 +20,8 @@ gem 'jwt'
 
 gem 'active_model_serializers', '~> 0.10.0'
 
+gem 'will_paginate'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
