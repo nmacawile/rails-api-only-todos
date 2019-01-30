@@ -1,24 +1,9 @@
-# README
+# Rails 5 RESTful JSON API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Built using this series of tutorials:
 
-Things you may want to cover:
+[Part 1](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one)
 
-* Ruby version
+[Part 2](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-two)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Part 3](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-three)
